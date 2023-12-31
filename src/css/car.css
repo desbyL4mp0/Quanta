@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+*{
+    border: red dotted 1px;
+    font-family: Oswald;
+    --clr-primary:  rgb(25, 165, 204);
+    --clr-secundary: rgb(20, 108, 148);
+
+    --clr-neutral-900: rgb(18, 18, 18);
+    --clr-neutral-850: rgba(18, 18, 18, 0.75);
+    --clr-neutral-800: rgba(18, 18, 18, 0.5);
+    --clr-neutral-500: rgb(55, 70, 98);
+    --clr-neutral-200: rgb(204, 200, 200);
+    --clr-neutral-100: rgb(245, 239, 239);
+}
+
+body{
+    background: var(--clr-neutral-100);
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.car-listing{
+    width: 100%;
+}
+
+.photos{
+    width: 45%;
+}
+
+.main-photo{
+    width: 100%;
+    height: 490px
+}
+
+.sec-photo{
+    height: 165px;
+}
