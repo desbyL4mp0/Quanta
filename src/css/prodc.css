@@ -1,0 +1,87 @@
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prod-card{
+    width: 230px;
+    height: 310px;
+    background: var(--clr-neutral-200);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--clr-neutral-900);
+}
+
+.main{
+    width: 208px;
+    height: 143px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.sec{
+    margin-top: 5px;
+    width: 208px;
+}
+
+.sec-img{
+    width: 100px;
+    height: 72px;
+    border-radius: 15px;
+}
+
+.info{
+    width: 208px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.car{
+    margin:0;
+    font-size: 18px;
+}
+
+.decs{
+    font-size: 10px;
+    color: var(--clr-secundary);
+    list-style-type: none;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price{
+    margin: 0;
+    font-size: 22px;
+}
+
+.dollar{
+    color: var(--clr-primary);
+}
+
+.date{
+    margin: 0;
+    text-align: end;
+    font-size: 10px;
+    color: var(--clr-secundary);
+}
