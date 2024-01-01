@@ -237,4 +237,85 @@ button{
     height: 10px;
 }
 
+.car-detail-list{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+}
 
+.info-name{
+    color: var(--clr-neutral-900);
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--clr-primary);
+    width: fit-content;
+}
+
+.basic-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cat{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.cat svg{
+    stroke: var(--clr-neutral-900);
+    fill: var(--clr-neutral-900);
+    width: 25px;
+    aspect-ratio: 1;
+    margin-right: 2px;
+}
+
+.cat-wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.cat-wrap h1{
+    color: var(--clr-neutral-900);
+    font-size: 1rem;   
+}
+
+.cat-wrap h2{
+    color: var(--clr-neutral-850);
+    font-weight: 200;
+    font-size: .875rem;
+}
+
+.second-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.consump-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.emissions-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cat-emis{
+    display: flex;
+}
+
+.cat-emis h1{
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.cat-emis p{
+    font-size: .875rem;
+    font-weight: 200;
+}
+
+.cond-col{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
