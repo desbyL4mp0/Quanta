@@ -21,6 +21,7 @@ ul{
     flex-direction: column;
     align-items: center;
     color: var(--clr-neutral-900);
+    transition: ease .3s;
 }
 
 .main{
