@@ -1,0 +1,13 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+table,tr,th{
+    margin: auto;
+    width: 40%;
+    border: 3px solid var(--clr-primary);
+    border-collapse: collapse;
+}
